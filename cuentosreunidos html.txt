@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuentos Reunidos en Este Lugar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .story {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .story h2 {
+            margin-top: 0;
+        }
+
+        .story p {
+            line-height: 1.6;
+        }
+
+        .comments {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cuentos Reunidos en Este Lugar</h1>
+        <p>Explora el mundo de la imaginación a través de nuestras historias.</p>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Cuentos</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="story">
+            <h2>El Secreto del Bosque Encantado</h2>
+            <p>En lo profundo del bosque...</p>
+            <a href="#">Leer más</a>
+            <div class="comments">
+                <h3>Comentarios</h3>
+                <p>¡Qué historia tan cautivadora! Me transportó a otro mundo.</p>
+                <p>Espero ansioso el próximo cuento.</p>
+            </div>
+        </div>
+        
+        <div class="story">
+            <!-- Otros cuentos aquí -->
+        </div>
+    </div>
+</body>
+</html>
